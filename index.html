@@ -13,8 +13,8 @@
     <!-- EB Garamond google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+
     <!-- Font awesome Link -->
     <script src="https://kit.fontawesome.com/ba54b633ce.js" crossorigin="anonymous"></script>
 
@@ -28,23 +28,25 @@
                     }
                 }
             }
-        }
+        };
     </script>
 
     <style>
-        font-garamond {
-            font-family: 'EB Garamond', serif;
+        .font-salsa {
+            font-family: 'Salsa', cursive;
         }
     </style>
 </head>
 
-<body class="font-garamond ">
+<body class="font-salsa">
     <header>
+        <!-- Navigation bar added -->
         <nav class="w-9/12 mx-auto my-0">
-            <div class="flex justify-around mt-8 items-center">
+            <div class="flex justify-between mt-8 items-center">
                 <div class="flex items-center">
                     <img class="w-12" src="./images/legal-advice.png" alt="">
-                    <h1 class=" text-3xl lg:text-4xl font-extrabold text-green-700">Legal <span class="text-red-700">Service</span> BD</h1>
+                    <h1 class=" text-3xl lg:text-4xl font-extrabold text-green-700">Legal <span
+                            class="text-red-700">Service</span> BD</h1>
                 </div>
                 <div class="flex gap-8 text-[#707070]">
                     <a href="">Home</a>
@@ -54,12 +56,33 @@
                     <a href="">Contact Us</a>
                 </div>
                 <div>
-                <button class="btn btn-neutral text-white font-bold">Free Consultation</button>
-                <div>
+                    <button class="btn btn-neutral text-white font-bold">Free Consultation</button>
+                    <div>
 
-            </div>
+                    </div>
 
         </nav>
+
+        <!-- banner section -->
+        <section style="background-image: url('./images/banner.png'); background-size: cover;"
+            class="bg-no-repeat bg-center h-auto w-9/12 mx-auto my-0 mt-12">
+            <div class="text-white text-center">
+                <h1 class="text-7xl pt-16 font-extrabold pb-4 leading-snug">We Provide Effective <br> Legal Solutions
+                </h1>
+                <p class="w-3/5 mx-auto my-0 text-[#E7E7E7] pb-4">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered
+                    alteration
+                    in some form, by injected humour.</p>
+
+                <div class="flex flex-col lg:flex-row md:flex-row justify-center gap-6">
+                    <input class="px-12 py-3 mb-20 rounded-xl border border-none" type="text"
+                        placeholder="Search Your Services">
+                    <button
+                        class="btn bg-green-800 text-white font-bold border border-none hover:bg-violet-500 px-8 ">Search</button>
+                </div>
+            </div>
+
+        </section>
     </header>
     <main>
 
